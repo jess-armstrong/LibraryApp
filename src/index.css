@@ -1,0 +1,52 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+#navbar {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.active {
+  background-color: red;
+  color: #fff;
+}
+/* Add your own custom styles here */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em;
+}
+
+.book-card {
+  width: 350px;
+  padding: 1em;
+  border-color: black;
+  border: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  flex-wrap: wrap;
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
